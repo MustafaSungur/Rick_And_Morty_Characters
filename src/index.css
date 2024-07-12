@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+  background-color: #fff;
+}
+.table-wrapper {
+  @apply p-5;
+}
+
+.table {
+  @apply min-w-full bg-white shadow-md rounded mb-4;
+}
+
+.th {
+  @apply py-3 px-3 text-start;
+}
+.tr {
+  @apply cursor-pointer  hover:bg-gray-100;
+}
+.td {
+  @apply py-2 px-5 border-t;
+}
+.filter-select {
+  @apply font-normal rounded-lg py-2 outline-none px-1 bg-slate-100;
+}
+.search-input {
+  @apply w-full p-2 bg-slate-100 outline-none rounded-xl font-normal justify-start;
+}
+
+.pagination-button {
+  @apply p-2 m-1 bg-green-500 text-white rounded hover:opacity-80;
+}
+
+.pagination-button:disabled {
+  @apply bg-green-300;
+}
+
+.details-wrapper {
+  @apply mt-5 p-5 shadow-md rounded flex gap-10 mb-16;
+}
+
+.character-image {
+  @apply mt-3 w-64 h-auto rounded;
+}
+
+.hover-bg-gray-100:hover {
+  @apply bg-gray-100;
+}
+
+.details-title {
+  @apply text-2xl font-bold mb-3;
+}
+.title-group {
+  @apply flex  gap-52 justify-between;
+}
+.details-body {
+  @apply pt-2 flex flex-col gap-2 text-xl;
+}
+
+.logo {
+  @apply w-20 h-20 rounded-full absolute top-5 right-20;
+}
