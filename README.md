@@ -1,4 +1,4 @@
-### Live Demo
+## Live Demo
 https://rickandmortycharacters-omega.vercel.app/
 
 ## Character Table with Filters and PaginationCharacter Table with Filters and Pagination
