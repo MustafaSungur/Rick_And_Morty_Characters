@@ -1,3 +1,6 @@
+### Live Demo
+https://rickandmortycharacters-omega.vercel.app/
+
 ## Character Table with Filters and PaginationCharacter Table with Filters and Pagination
 This project is a React-based application that displays a list of characters in a table format. The application includes features for filtering, sorting, and paginating the character data. It uses react-table for table functionalities and framer-motion for animations.
 
